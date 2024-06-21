@@ -1,0 +1,5 @@
+node_modules
+mongodb/data/
+mongodb/data/log/mongod.log
+mongodb/data/**/*.log
+/mongodb/data/**/*.log

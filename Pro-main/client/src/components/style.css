@@ -1,0 +1,134 @@
+.courses-container #app {
+  height: 100%;
+}
+.courses-container html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.courses-container body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.courses-container .swiper {
+  width: 100%;
+  height: 100%;
+}
+.courses-container .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courses-container .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.courses-container .swiper {
+  width: 100%;
+  height: 400px;
+  margin: 20px auto;
+}
+
+.courses-container .append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.courses-container .append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #233d57;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+/* style.css */
+/* style.css */
+.trainer-slide {
+  position: relative;
+}
+
+.trainer-image {
+  width: 100%;
+  height: auto;
+}
+
+.trainer-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.trainer-slide:hover .trainer-info {
+  opacity: 1; /* Show on hover */
+  cursor: pointer;
+}
+
+.trainer-info h4,
+.trainer-info p {
+  color: #fff;
+  margin: 0;
+}
+
+
+/* Update CSS class names to match JSX */
+.review .mySwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.review .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjust the image CSS selector */
+.review .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .background-wrapper{
+   background-image: url("C:\Users\harjo\Desktop\gymfitness\client\src\assets\contact_bg.webp");
+   background-size: cover;
+   background-position: center;
+  }
+  .custom-form {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+  
